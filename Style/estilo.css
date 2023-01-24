@@ -1,0 +1,90 @@
+    body{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-image: url("Imgs/fondo3.jpg");
+      margin:0;
+      color: white;
+      text-align: center;
+      font-size: 120%;
+    }
+    header{
+      background-position: right;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      width:100%;
+      height:5.1vw;
+      background-image: url("Imgs/banner.jpg");
+      margin-bottom:2vw;
+      border-radius: 10%;
+    }
+   article.loginForm{
+      margin:auto;
+      background-color:rgba(0,0,0,0.8);
+      color:white;
+      box-shadow: 0 0 20px rgba(0,255,150,.7);
+      width:22vw;
+      text-align:center;
+      border-radius: 10%;
+    }
+    [type="text"],[type="password"]{
+      display: block;
+      width:100%;
+      margin-bottom: 7px;
+      padding:5px;
+      border-radius: 50px;
+      color:white;
+      border: solid white 1px;
+      background-color:black;
+      background-position: left;
+      background-repeat:no-repeat;
+      background-size:contain;
+      padding-left:1.8rem;
+    }
+    [type="text"]{
+      background-image:url("https://i.postimg.cc/vTPWFM6Y/user.png");
+      font-family:inherit;
+    }
+    [type="password"]{
+      background-image:url("https://i.postimg.cc/m2Py7zH8/lock2.png");
+    }
+    [type="text"]:focus,[type="password"]:focus{
+      background-color:white;
+      color:black;
+    }
+    [type="text"]:focus{
+      background-image:url("https://i.postimg.cc/d1GYxtpC/user2.png");
+    }
+    [type="password"]:focus{
+      background-image:url("https://i.postimg.cc/MKbfM16C/lock.png");
+    }
+    [type="submit"]{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bolder;
+      width: 100px;
+      margin-top: 7px;
+      margin-bottom: 7px;
+      border-radius:50px;
+      padding:10px;
+      cursor:pointer;
+    }
+    fieldset{
+      padding:0;
+      border:0;
+      margin-top: 10px;
+    }
+    .noVisible{
+      display:block;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+      position:absolute;
+      background-color:white;
+    }
+    a{
+      color: white;
+    }
+    .log{
+      display: inline-block;
+      text-align:right;
+    }
